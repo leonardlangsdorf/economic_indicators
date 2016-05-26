@@ -1,0 +1,27 @@
+Environment Basics 
+
+Install Python 3 and install
+https://www.python.org/downloads/
+Install Python Flask 
+python -m venv flask 
+Creates a Virtual Environment so you can mess it up at will  
+$ flask\Scripts\pip install flask
+$ flask\Scripts\pip install flask-login
+$ flask\Scripts\pip install flask-openid
+$ flask\Scripts\pip install flask-mail
+$ flask\Scripts\pip install flask-sqlalchemy
+$ flask\Scripts\pip install sqlalchemy-migrate
+$ flask\Scripts\pip install flask-whooshalchemy
+$ flask\Scripts\pip install flask-wtf
+$ flask\Scripts\pip install flask-babel
+$ flask\Scripts\pip install guess_language
+$ flask\Scripts\pip install flipflop
+$ flask\Scripts\pip install coverage
+Install BOTO3 libraries 
+pip install boto3
+Get from Github 
+https://github.com/leonardlangsdorf/economic_indicators/tree/master/environment
+unzip and install dynomodb
+Run dynamo with 
+java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb
+
